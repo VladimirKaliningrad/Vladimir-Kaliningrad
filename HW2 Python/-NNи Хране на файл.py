@@ -3,8 +3,6 @@
 #  Позиции хранятся в файле file.txt в одной строке одно число.
 
 from random import randint
-
-
 n = int(input('Введите N= '))
 list = []
 for i in range(n):
