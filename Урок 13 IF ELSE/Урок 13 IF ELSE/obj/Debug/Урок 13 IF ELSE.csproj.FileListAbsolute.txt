@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Project\Урок 13 IF ELSE\Урок 13 IF ELSE\bin\Debug\Урок 13 IF ELSE.exe.config
+C:\Users\User\Desktop\Project\Урок 13 IF ELSE\Урок 13 IF ELSE\bin\Debug\Урок 13 IF ELSE.exe
+C:\Users\User\Desktop\Project\Урок 13 IF ELSE\Урок 13 IF ELSE\bin\Debug\Урок 13 IF ELSE.pdb
+C:\Users\User\Desktop\Project\Урок 13 IF ELSE\Урок 13 IF ELSE\obj\Debug\Урок 13 IF ELSE.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project\Урок 13 IF ELSE\Урок 13 IF ELSE\obj\Debug\Урок 13 IF ELSE.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Project\Урок 13 IF ELSE\Урок 13 IF ELSE\obj\Debug\Урок 13 IF ELSE.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project\Урок 13 IF ELSE\Урок 13 IF ELSE\obj\Debug\Урок 13 IF ELSE.exe
+C:\Users\User\Desktop\Project\Урок 13 IF ELSE\Урок 13 IF ELSE\obj\Debug\Урок 13 IF ELSE.pdb
