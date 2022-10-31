@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Project\Сортировка пузыком CS\Сортировка пузыком CS\obj\Debug\Сортировка пузыком CS.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project\Сортировка пузыком CS\Сортировка пузыком CS\obj\Debug\Сортировка пузыком CS.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Project\Сортировка пузыком CS\Сортировка пузыком CS\obj\Debug\Сортировка пузыком CS.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project\Сортировка пузыком CS\Сортировка пузыком CS\bin\Debug\Сортировка пузыком CS.exe.config
+C:\Users\User\Desktop\Project\Сортировка пузыком CS\Сортировка пузыком CS\bin\Debug\Сортировка пузыком CS.exe
+C:\Users\User\Desktop\Project\Сортировка пузыком CS\Сортировка пузыком CS\bin\Debug\Сортировка пузыком CS.pdb
+C:\Users\User\Desktop\Project\Сортировка пузыком CS\Сортировка пузыком CS\obj\Debug\Сортировка пузыком CS.exe
+C:\Users\User\Desktop\Project\Сортировка пузыком CS\Сортировка пузыком CS\obj\Debug\Сортировка пузыком CS.pdb
