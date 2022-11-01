@@ -13,21 +13,22 @@ namespace Сортировка_пузыком_CS
         {
          /*********  сортировка пузырком  ***********/  
             
-            /*Console.WriteLine("Введите кол-ко элементов массива: ");
+            Console.Write("Введите кол-ко элементов массива: ");
             int n = Convert.ToInt32 (Console.ReadLine());
             int[] array = new int[n];
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine("Введите значение массива: ");
+                Console.Write("Введите значение массива: ");
                 array[i] = Convert.ToInt32(Console.ReadLine());
             }  
             Console.WriteLine("Начальный массив: [" + string.Join(", ", array) + "]");
             Console.WriteLine();
+            
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n - 1; j++)
                 {
-                    if (array[i] > array[j + 1])
+                    if (array[j] > array[j + 1])
                     {
                         int temp = array[j];
                         array[j] = array[j + 1];
@@ -36,9 +37,9 @@ namespace Сортировка_пузыком_CS
                 }
                 Console.WriteLine(i + "[" + string.Join(", ", array) + "]");
 
-            }    */
+            }    
          
-            const arr = [1, 44, 1, 23, 356, 254];
+            /*const arr = [1, 44, 1, 23, 356, 254];
             funcion findMax(arr)
             {
                 len max = arr[0];
@@ -53,7 +54,7 @@ namespace Сортировка_пузыком_CS
 
             }
 
-            Console.log(findMax(arr));
+            Console.log(findMax(arr)); */
             
              
             
