@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Project\метод, функция1 CS\метод, функция1 CS\bin\Debug\метод, функция1 CS.exe.config
+C:\Users\User\Desktop\Project\метод, функция1 CS\метод, функция1 CS\bin\Debug\метод, функция1 CS.exe
+C:\Users\User\Desktop\Project\метод, функция1 CS\метод, функция1 CS\bin\Debug\метод, функция1 CS.pdb
+C:\Users\User\Desktop\Project\метод, функция1 CS\метод, функция1 CS\obj\Debug\метод, функция1 CS.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project\метод, функция1 CS\метод, функция1 CS\obj\Debug\метод, функция1 CS.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Project\метод, функция1 CS\метод, функция1 CS\obj\Debug\метод, функция1 CS.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project\метод, функция1 CS\метод, функция1 CS\obj\Debug\метод, функция1 CS.exe
+C:\Users\User\Desktop\Project\метод, функция1 CS\метод, функция1 CS\obj\Debug\метод, функция1 CS.pdb
