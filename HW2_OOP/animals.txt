@@ -1,0 +1,5 @@
+Cat Nickname: Busya Owner: Alex Legs: 4
+Dog Nickname: Muhtar Owner: Andry Legs: 4
+Duck Nickname: Donald Owner: Ivan Legs: 2
+Eagle Nickname: Red Owner: Peter Legs: 2
+Fish Nickname: Peper Owner: Louie Legs: 0
