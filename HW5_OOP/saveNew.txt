@@ -1,0 +1,15 @@
+ID: 1
+First name: Vasya
+Last name: Pupkin
+Phone number: 12345
+
+ID: 2
+First name: Igor
+Last name: Pigor
+Phone number: 1235
+
+ID: 3
+First name: Ivan
+Last name: Ivanov
+Phone number: 123456789
+
