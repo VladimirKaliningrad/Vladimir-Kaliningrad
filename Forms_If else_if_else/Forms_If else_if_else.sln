@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms_If else_if_else", "Forms_If else_if_else\Forms_If else_if_else.csproj", "{F14D9D8E-248A-4954-B307-13C4471DF261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F14D9D8E-248A-4954-B307-13C4471DF261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14D9D8E-248A-4954-B307-13C4471DF261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14D9D8E-248A-4954-B307-13C4471DF261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14D9D8E-248A-4954-B307-13C4471DF261}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1470360-AB5A-4DB5-A1AC-3B84EBD63511}
+	EndGlobalSection
+EndGlobal
