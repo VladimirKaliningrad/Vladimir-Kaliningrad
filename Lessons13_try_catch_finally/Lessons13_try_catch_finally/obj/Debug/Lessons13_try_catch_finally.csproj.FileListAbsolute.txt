@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\bin\Debug\Lessons13_try_catch_finally.exe.config
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\bin\Debug\Lessons13_try_catch_finally.exe
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\bin\Debug\Lessons13_try_catch_finally.pdb
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\obj\Debug\Lessons13_try_catch_finally.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\obj\Debug\Lessons13_try_catch_finally.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\obj\Debug\Lessons13_try_catch_finally.Form1.resources
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\obj\Debug\Lessons13_try_catch_finally.Properties.Resources.resources
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\obj\Debug\Lessons13_try_catch_finally.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\obj\Debug\Lessons13_try_catch_finally.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\obj\Debug\Lessons13_try_catch_finally.exe
+C:\Users\User\source\repos\Lessons13_try_catch_finally\Lessons13_try_catch_finally\obj\Debug\Lessons13_try_catch_finally.pdb
