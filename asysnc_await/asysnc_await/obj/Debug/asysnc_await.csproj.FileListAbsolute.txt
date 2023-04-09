@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\asysnc_await\asysnc_await\obj\Debug\asysnc_await.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\asysnc_await\asysnc_await\obj\Debug\asysnc_await.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\asysnc_await\asysnc_await\obj\Debug\asysnc_await.Form1.resources
+C:\Users\User\source\repos\asysnc_await\asysnc_await\obj\Debug\asysnc_await.Properties.Resources.resources
+C:\Users\User\source\repos\asysnc_await\asysnc_await\obj\Debug\asysnc_await.csproj.GenerateResource.cache
+C:\Users\User\source\repos\asysnc_await\asysnc_await\obj\Debug\asysnc_await.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\asysnc_await\asysnc_await\bin\Debug\asysnc_await.exe.config
+C:\Users\User\source\repos\asysnc_await\asysnc_await\bin\Debug\asysnc_await.exe
+C:\Users\User\source\repos\asysnc_await\asysnc_await\bin\Debug\asysnc_await.pdb
+C:\Users\User\source\repos\asysnc_await\asysnc_await\obj\Debug\asysnc_await.exe
+C:\Users\User\source\repos\asysnc_await\asysnc_await\obj\Debug\asysnc_await.pdb
