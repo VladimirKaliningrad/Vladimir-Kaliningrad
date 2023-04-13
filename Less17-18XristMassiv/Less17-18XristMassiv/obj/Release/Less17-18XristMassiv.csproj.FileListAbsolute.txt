@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\bin\Release\Less17-18XristMassiv.exe.config
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\bin\Release\Less17-18XristMassiv.exe
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\bin\Release\Less17-18XristMassiv.pdb
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\obj\Release\Less17-18XristMassiv.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\obj\Release\Less17-18XristMassiv.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\obj\Release\Less17_18XristMassiv.Form1.resources
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\obj\Release\Less17_18XristMassiv.Properties.Resources.resources
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\obj\Release\Less17-18XristMassiv.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\obj\Release\Less17-18XristMassiv.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\obj\Release\Less17-18XristMassiv.exe
+C:\Users\User\source\repos\Less17-18XristMassiv\Less17-18XristMassiv\obj\Release\Less17-18XristMassiv.pdb
