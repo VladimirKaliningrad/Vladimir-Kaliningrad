@@ -1,0 +1,5 @@
+<Ivanov><Ivan><Ivanovich><02.02.1984><123456789><m>
+<Ivanov><Ivan><Ivanovich><01.01.1980><123456789><m>
+<Ivanov><Ivan><Ivanovich><01.01.1980><1234567890><m>
+<Ivanov><Ivan><Ivanovich><01.01.1980><123456789><m>
+<Ivanov><Ivan><Ivanovich><01.01.1980><123456789><m>
