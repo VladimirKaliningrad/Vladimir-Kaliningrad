@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(planeta.jpg) no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  counter-reset: count;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+}
+svg path {
+  fill: yellow;
+}
+
+.light {
+  position: absolute;
+  left: -99999999px;
+  visibility: hidden;
+}
+.light:checked {
+  counter-increment: count;
+}
+
+.title {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: white;
+}
+.title::before {
+  content: counter(count);
+}
+
+.bulb {
+  position: absolute;
+}
+
+.bulb1 {
+  animation: bulb-rise1 3s 0s both;
+}
+
+.bulb2 {
+  animation: bulb-rise2 3s 3s both;
+}
+
+.bulb3 {
+  animation: bulb-rise3 3s 6s both;
+}
+
+@keyframes bulb-rise1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 45vh;
+    left: 11vw;
+  }
+}
+@keyframes bulb-rise2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 74vh;
+    left: 10vw;
+  }
+}
+@keyframes bulb-rise3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 11vh;
+    left: 7vw;
+  }
+}/*# sourceMappingURL=style.css.map */
