@@ -34,7 +34,7 @@ console.log(super_link);
 
 // 2. Внутри всех элементов на странице, которые имеют класс "card-link", поменяйте текст внутри элемента на "ссылка".
 
-const cardlink = document.querySelectorAll('card-link');
+const cardlink = document.querySelectorAll('.card-link');
 cardlink.forEach(element => {
     element.textContent = 'ссылка';
 });
@@ -55,7 +55,7 @@ console.log(document.title);
 
 // 6. Получите элемент с классом "card-title" и выведите его родительский узел в консоль.
 
-const pElem = document.querySelector('.card-title').parentNode;
+const pElem = document.querySelector('.card-title').parentElement;
     console.log(pElem);
 
 
