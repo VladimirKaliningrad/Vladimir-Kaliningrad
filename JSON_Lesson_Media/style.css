@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding-left: 50px;
+}
+
+.now_time {
+    font-size: 20px;
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+
+
+.time_range {
+    width: 250px;
+    /* padding-left: 50px; */
+    margin-bottom: 15px;
+}
+
+.functional_buttons {
+    padding-left: 150px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.fa-solid {
+    cursor: pointer;
+}
+
+.control_panel {
+    padding-left: 100px;
+    margin-top: 10px;
+}
+
+.volume_range {
+    width: 170px;
+}
+
+.center {
+    margin-left: 500px;
+    margin-top: 25px;
+
+}
+
