@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <div id="app">
+        <h1 class = "title">{{message }}</h1>
+       
+        <button v-on:click="changeText">click button</button>
+
+        <h2>Счетчик</h2>
+
+        <button v-on:click="counter++">increase {{counter}}</button>
+        <!-- <p> {{ counter }}</p> -->
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue',
+                counter: 0, 
+            },
+            methods: {
+                changeText() {
+                    this.message = 'Text click';
+                },
+                increase() {
+
+                }
+            },
+
+        })
+
+
+    </script>
+
+</body>
+</html>
