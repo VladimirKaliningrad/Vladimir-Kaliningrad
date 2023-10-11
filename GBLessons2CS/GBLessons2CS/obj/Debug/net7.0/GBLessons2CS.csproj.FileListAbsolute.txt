@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\bin\Debug\net7.0\GBLessons2CS.exe
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\bin\Debug\net7.0\GBLessons2CS.deps.json
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\bin\Debug\net7.0\GBLessons2CS.runtimeconfig.json
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\bin\Debug\net7.0\GBLessons2CS.dll
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\bin\Debug\net7.0\GBLessons2CS.pdb
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\GBLessons2CS.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\GBLessons2CS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\GBLessons2CS.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\GBLessons2CS.AssemblyInfo.cs
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\GBLessons2CS.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\GBLessons2CS.dll
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\refint\GBLessons2CS.dll
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\GBLessons2CS.pdb
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\GBLessons2CS.genruntimeconfig.cache
+C:\Users\User\Desktop\LessonsCS\GBLessons2CS\GBLessons2CS\obj\Debug\net7.0\ref\GBLessons2CS.dll
