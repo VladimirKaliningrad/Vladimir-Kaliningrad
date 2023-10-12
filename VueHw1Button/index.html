@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div id="app">
+            <p class="task">
+                1. Создать кнопку "Перевернуть". При клике на кнопку текст кнопки должен перевернуться и отобразиться в обратном порядке.
+            </p>
+            <button @click="rotate" v-bind:style="styleObject">
+                {{message}}
+            </button>
+            <button
+                @click="rotate2"
+                v-bind:style="{color: 'green', fontSize: '20px'}"
+            >
+                {{message2}}
+            </button>
+            <div style="height: 50px"></div>
+            <p class="task">
+                2. Есть список элементов. Пользователь может добавлять новые элементы списка с текстом “Новый элемент списка” нажав на кнопку "Добавить".
+            </p>
+            <p class="task">
+                3. *Дополнительное задание: При клике на элемент списка он должен быть удален. (по желанию)
+            </p>
+            <button @click="addListItem">Добавить элемент</button>
+            <ul style="list-style-type: none">
+                <li
+                    v-for="item in listItems"
+                    :key="item.id"
+                    v-if="listItemId > 0"
+                    @click="removeListItem(item)"
+                >
+                    {{ item.id + ' ' + item.itemTextContent }}
+                </li>
+            </ul>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script>
+            new Vue({
+                el: "#app",
+                data: {
+                    message: "Перевернуть",
+                    message2: "Перевернуть иначе",
+                    styleObject: {
+                        color: "green",
+                        fontSize: "20px",
+                        transform: "rotate(0deg)",
+                    },
+                    isNormalPosition: true,
+                    listItemId: 0,
+                    listItemText: "Новый элемент списка",
+                    listItems: [],
+                },
+                methods: {
+                    // Задание 1. Создать кнопку "Перевернуть". При клике на кнопку текст кнопки должен перевернуться и отобразиться в обратном порядке
+                    rotate() {
+                        if (this.isNormalPosition) {
+                            this.styleObject.transform = "rotate(180deg)";
+                            this.isNormalPosition = false;
+                        } else {
+                            this.styleObject.transform = "rotate(0deg)";
+                            this.isNormalPosition = true;
+                        }
+                    },
+                    rotate2() {
+                        this.message2 = this.message2
+                            .split("")
+                            .reverse()
+                            .join("");
+                    },
+                    // Задание 2. Есть список элементов. Пользователь может добавлять новые элементы списка с текстом “Новый элемент списка” нажав на кнопку "Добавить".
+                    addListItem() {
+                        this.listItemId++;
+                        this.listItems.push({
+                            id: this.listItemId,
+                            itemTextContent: this.listItemText,
+                        });
+                    },
+                    // Задание 3. При клике на элемент списка он должен быть удален
+                    removeListItem(item) {
+                        this.listItems.splice(this.listItems.indexOf(item), 1);
+                    },
+                },
+            });
+        </script>
+    </body>
+</html>
