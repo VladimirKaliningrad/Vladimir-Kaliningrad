@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+</head>
+
+<body>
+
+    <div id="app">
+        <!-- {{ message }} -->
+        <!-- <a: href="link">google</a:> -->
+        <p> Товаров в корзине {{count}}</p>
+
+        <div v-for="product in products" key="product.id">
+            <h3>{{product.name}}</h3>
+             <button @click="addToCard(product)">Купить</button>
+             
+        </div>
+       
+
+    </div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                // message: 'Привет, Vue!',
+                // link: 'https://www.google.com'
+                count: 0,
+                products: [
+                    {
+                        id: 1,
+                        name: 'Обьект 1',
+                        inCart: false
+                    },
+                    {
+                        id: 2,
+                        name: 'Обьект 2',
+                        inCart: false
+                    }, 
+                    {
+                        id: 3,
+                        name: 'Обьект 3',
+                        inCart: false
+                    },
+                    {
+                        id: 4,
+                        name: 'Обьект 4',
+                        inCart: false
+                    },
+                ]
+
+            },
+            methods: {
+                addToCard(item) {
+                    if (!item.inCart) {
+                        item.inCart = true;
+                        this.count++;
+                    }
+                }
+
+            }
+
+        })
+    </script>
+
+
+
+</body>
+
+</html>
