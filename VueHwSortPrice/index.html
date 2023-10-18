@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="buttons">
+            <div class="buttons-price">
+                <button @click="sortByPriceAscending">
+                    Сортировка по возрастанию цены
+                </button>
+                <button @click="sortByPriceDescending">
+                    Сортировка по убыванию цены
+                </button>
+            </div>
+            <div class="buttons-name">
+                <button @click="sortByAlphabetAscending">
+                    Сортировка по алфавиту (А -> я)
+                </button>
+                <button @click="sortByAlphabetDescending">
+                    Сортировка по алфавиту (Я -> а)
+                </button>
+            </div>
+        </div>
+        <ul :style="{listStyleType: 'none'}">
+            <li v-for="{id, name, price} in products" :key="id">
+                {{ name }} - {{ price }}
+            </li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        // Задание. Вы разрабатываете приложение для отображения и сортировки списка товаров. У вас есть массив объектов products, где каждый объект представляет товар с его названием и ценой. Вам необходимо отобразить список товаров и предоставить пользователю возможность сортировать товары (по возрастанию и по убыванию).
+        new Vue({
+            el: "#app",
+            data: {
+                products: [
+                    {
+                        id: 0,
+                        name: "Ноутбук",
+                        price: 100000,
+                    },
+                    {
+                        id: 1,
+                        name: "Смартфон",
+                        price: 800,
+                    },
+                    {
+                        id: 2,
+                        name: "Телевизор",
+                        price: 400,
+                    },
+                    {
+                        id: 3,
+                        name: "Сушилка",
+                        price: 300,
+                    },
+                    {
+                        id: 4,
+                        name: "Радиостанция",
+                        price: 100,
+                    },
+                    {
+                        id: 5,
+                        name: "Пылесос",
+                        price: 400,
+                    },
+                    {
+                        id: 6,
+                        name: "Обогреватель",
+                        price: 950,
+                    },
+                    {
+                        id: 5,
+                        name: "Посудомойка",
+                        price: 50000,
+                    },
+                ],
+            },
+            methods: {
+                sortByPriceAscending() {
+                    this.products = this.products.sort((a, b) =>
+                        a.price > b.price ? 1 : -1
+                    );
+                },
+                sortByPriceDescending() {
+                    this.products = this.products.sort((a, b) =>
+                        a.price < b.price ? 1 : -1
+                    );
+                },
+                sortByAlphabetAscending() {
+                    this.products = this.products.sort((a, b) =>
+                        a.name > b.name ? 1 : -1
+                    );
+                },
+                sortByAlphabetDescending() {
+                    this.products = this.products.sort((a, b) =>
+                        a.name < b.name ? 1 : -1
+                    );
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
