@@ -1,0 +1,36 @@
+@import 'vars';
+@import 'mixins';
+
+.not-found {
+    margin-bottom: 200px;
+
+    &__content {
+        display: grid;
+        grid-template-columns: 569px 913px;
+        column-gap: 81px;
+    }
+
+    &__content_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    &__title {
+        @include font-DMSerifDisplay-regular($firstPrimaryColor, 250px, 1.25);
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        @include font-DMSerifDisplay-regular($secondPrimaryColor, 35px, 1.5);
+        letter-spacing: 0.35px;
+        margin: 0;
+        margin-bottom: 23px;
+    }
+
+    &__image {
+        width: 100%;
+    }
+}

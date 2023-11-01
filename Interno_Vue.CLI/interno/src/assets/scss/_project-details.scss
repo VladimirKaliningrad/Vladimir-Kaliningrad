@@ -1,0 +1,56 @@
+@import 'vars';
+@import 'mixins';
+
+.project-details {
+    margin-bottom: 107px;
+
+    &__intro {
+        margin-bottom: 200px;
+    }
+
+    &__intro-content {
+        background-image: url("../images/project_details_laceholder.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        height: 356px;
+
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__heading {
+        @include font-DMSerifDisplay-regular($secondPrimaryColor, 50px, 1.25);
+        letter-spacing: 1px;
+        margin: 0;
+        margin-bottom: 11px;
+    }
+
+    &__text-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        max-width: 658px;
+        margin-bottom: 100px;
+    }
+
+    &__text {
+        @include font-jost-regular($fourthPrimaryColor, 22px, 1.5);
+        letter-spacing: 0.22px;
+        margin: 0;
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+}

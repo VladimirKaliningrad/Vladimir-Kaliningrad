@@ -1,0 +1,15 @@
+@import 'vars';
+@import 'mixins';
+
+
+.header {
+    margin-top: 53px;
+    margin-bottom: 57px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,127 @@
+@import 'vars';
+@import 'mixins';
+
+.footer {
+    margin-bottom: 134px;
+
+    &__content {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 27px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+        &:nth-child(2) {
+            padding-left: 150px;
+        }
+
+        &:nth-child(3) {
+            padding-left: 130px;
+        }
+    }
+
+    &__logo {
+        margin-bottom: 18px;
+    }
+
+    &__item-text {
+        @include font-jost-regular($fourthPrimaryColor, 22px, 1.5);
+        letter-spacing: 0.22px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    &__icons-box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        gap: 54px;
+        margin: 0;
+    }
+
+    // &__icon-link {
+    //     &:hover {
+    //         color: #CDA274;
+    //         @include transition-slow();
+    //     }
+
+    //     &:active {
+    //         color: #4D5053;
+    //         @include transition-slow();
+    //     }
+
+    //     &:focus {
+    //         color: #CDA274;
+    //         @include transition-slow();
+    //     }
+    // }
+
+    &__item-heading {
+        @include font-DMSerifDisplay-regular($secondPrimaryColor, 25px, 1.25);
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    &__contact-address {
+        @include font-jost-regular($fourthPrimaryColor, 22px, 1.5);
+        letter-spacing: 0.22px;
+        margin: 0;
+    }
+
+    &__contact-email {
+        @include font-jost-regular($fourthPrimaryColor, 22px, 3);
+        letter-spacing: 0.22px;
+        margin: 0;
+
+        &:hover {
+            color: $firstPrimaryColor;
+            @include transition-slow();
+        }
+
+        &:active {
+            color: $fourthPrimaryColor;
+            @include transition-slow();
+        }
+
+        &:focus {
+            color: $firstPrimaryColor;
+            @include transition-slow();
+        }
+    }
+
+    &__contact-phone {
+        @include font-jost-regular($fourthPrimaryColor, 22px, 1.5);
+        letter-spacing: 0.22px;
+        margin: 0;
+
+        &:hover {
+            color: $firstPrimaryColor;
+            @include transition-slow();
+        }
+
+        &:active {
+            color: $fourthPrimaryColor;
+            @include transition-slow();
+        }
+
+        &:focus {
+            color: $firstPrimaryColor;
+            @include transition-slow();
+        }
+    }
+}

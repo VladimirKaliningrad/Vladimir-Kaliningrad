@@ -1,0 +1,59 @@
+@import 'vars';
+@import 'mixins';
+
+.button {
+
+
+    &__box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+        border-radius: 18px;
+        border: 1px solid #292F36;
+        background: #292F36;
+        box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+        cursor: pointer;
+        @include font-jost-semibold($mainColorOfSite, 18px, 1.25);
+        letter-spacing: 0.36px;
+        text-align: center;
+        @include transition-slow();
+
+        &:hover {
+            color: $firstPrimaryColor;
+            background: $mainColorOfSite;
+            border: 1px solid $secondPrimaryColor;
+            @include transition-slow();
+        }
+
+        &:focus {
+            outline: none !important;
+            fill: $mainColorOfSite;
+        }
+
+        &:active {
+            color: $firstPrimaryColor;
+            background: $mainColorOfSite;
+            border: 1px solid $secondPrimaryColor;
+            @include transition-fast();
+        }
+
+    }
+
+    &__arrow {
+        margin-left: 10px;
+
+        &:hover path {
+            @include transition-slow();
+        }
+    }
+
+}

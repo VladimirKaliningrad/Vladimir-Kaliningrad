@@ -1,0 +1,19 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    overflow: hidden;
+
+    &__img {
+        width: 100%;
+    }
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+}
+
+
