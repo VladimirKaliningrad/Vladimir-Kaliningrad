@@ -78,8 +78,23 @@ namespace GBLessons4CS
             clientsTA.ToList().ForEach(x => Console.WriteLine($"{x.name} - {x.sumTotalAmount}"));
 
 
+            List<string> strings = new List<string>
+            {
+                "Apple",
+                "Banana",
+                "Cherry",
+                "Date",
+                "Fig",
+                "Grapes"
+            };
 
-            
+            var sortedList = strings.OrderBy (x => x.Length).ToList();
+            sortedList.ForEach(Console.WriteLine);
+          
+
+
+
+
 
 
 
