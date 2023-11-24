@@ -7,7 +7,7 @@
             var d = Directory.GetLastAccessTime("bin/Debug");
             Console.WriteLine(d);
 
-            Directory.SetLastAccessTime("bin/Debug", d.AddDays(-10));
+            Directory.SetLastAccessTime("bin/Debug", d.AddDays(-1));
             d = Directory.GetLastAccessTime("bin/Debug");
             Console.WriteLine(d);
 
