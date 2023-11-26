@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\bin\Debug\net7.0\GBLessons8CS.exe
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\bin\Debug\net7.0\GBLessons8CS.deps.json
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\bin\Debug\net7.0\GBLessons8CS.runtimeconfig.json
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\bin\Debug\net7.0\GBLessons8CS.dll
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\bin\Debug\net7.0\GBLessons8CS.pdb
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\GBLessons8CS.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\GBLessons8CS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\GBLessons8CS.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\GBLessons8CS.AssemblyInfo.cs
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\GBLessons8CS.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\GBLessons8CS.dll
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\refint\GBLessons8CS.dll
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\GBLessons8CS.pdb
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\GBLessons8CS.genruntimeconfig.cache
+C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj\Debug\net7.0\ref\GBLessons8CS.dll
