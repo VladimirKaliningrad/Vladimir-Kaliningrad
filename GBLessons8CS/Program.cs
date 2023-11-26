@@ -1,35 +1,131 @@
-﻿namespace GBLessons8CS
+﻿using System.Diagnostics;
+using System.Text;
+using static System.Net.Mime.MediaTypeNames;
+
+namespace GBLessons8CS
 {
     internal class Program
     {
+        //Напишите консольную утилиту для копирования файлов
+        //Пример запуска: utility.exe file1.txt file2.txt
+
+
+        
+        
         static void Main(string[] args)
         {
-            var d = Directory.GetLastAccessTime("bin/Debug");
-            Console.WriteLine(d);
-
-            Directory.SetLastAccessTime("bin/Debug", d.AddDays(-1));
-            d = Directory.GetLastAccessTime("bin/Debug");
-            Console.WriteLine(d);
-
+            MyFile(@"C:\Users\User\Desktop\LessonsCS\GBLessons8CS\3.txt.txt");
             
             
             
+            //MyFile(@"C:\Users\User\Desktop\LessonsCS\GBLessons8CS\1.txt.txt");
             
-            //var bytes = new byte[101];
+            
+            //Lessons8 lessons8 = new Lessons8();
+            //lessons8.MyCopyFile(@"C:\Users\User\Desktop\LessonsCS\GBLessons8CS\obj", "1.txt", "1.txt");
 
-            //for (int i = 0; i < 101; i++)
-            //    bytes[i] = (byte)i;
+            //Пример запуска: utility.exe c:\t file1.txt
 
-            //using (var stream = new MemoryStream(bytes))
-            //{
-            //    int b = 0;
-            //    while ((b = stream.ReadByte()) >= 0)
-            //    {
-            //        Console.Write((byte)b + " ");
-            //    }
-            //} 
-     
+
+            //Напишите утилиту читающую тестовый файл и выводящую на экран строки 
+            //    содержащие искомое слово.
+
+
+            //var mainPath = args[0];
+            //string fileName = args[1];
+            //SomeMethod(mainPath, fileName);
 
         }
+
+        public static void SomeMethod(string directory, string fileName)
+        {
+
+
+
+            var dirs = Directory.EnumerateDirectories(directory);
+            var files = Directory.EnumerateFiles(directory);
+
+            foreach (var file in files)
+            {
+                if (file.Contains(fileName))
+                {
+                    Console.WriteLine($"Искомый файл {fileName} + " +
+                        $"находится {directory}");
+                    break;
+                }
+            }
+
+            foreach (var dir in dirs)
+            {
+                SomeMethod(dir, fileName);
+            }
+
+
+        }
+
+        public static void MyFile(string path)
+        {
+            using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
+            {
+                using (BufferedStream bs = new BufferedStream(fs))
+                {
+                    byte[] bytes = new Byte[fs.Length];
+                    bs.Read(bytes, 0, bytes.Length);
+                    string date = Encoding.UTF8.GetString(bytes);
+                    string newDate = Environment.NewLine + "Моя новая строка!!!!!";
+                    byte[] newBytes = Encoding.UTF8.GetBytes(newDate);
+                    bs.Write(newBytes, 0, newBytes.Length);
+                }
+            }
+            
+
+            
+        }
+
+        //public static void MyFile(string path)
+        //{
+        //    if (!File.Exists(path))
+        //    {
+        //        Console.WriteLine("no file");
+        //    }
+        //    using (StreamReader sr = new StreamReader(path))
+        //    {
+        //        while (!sr.EndOfStream)
+        //        {
+        //            string value = sr.ReadLine();
+        //            if (value.Contains("123"))
+        //            {
+        //                Console.WriteLine(value);
+        //            }
+                  
+
+        //        }
+                
+
+        //    }
+
+        //}        //public static void MyFile(string path)
+        //{
+        //    if (!File.Exists(path))
+        //    {
+        //        Console.WriteLine("no file");
+        //    }
+        //    using (StreamReader sr = new StreamReader(path))
+        //    {
+        //        while (!sr.EndOfStream)
+        //        {
+        //            string value = sr.ReadLine();
+        //            if (value.Contains("123"))
+        //            {
+        //                Console.WriteLine(value);
+        //            }
+                  
+
+        //        }
+                
+
+        //    }
+
+        //}
     }
 }
