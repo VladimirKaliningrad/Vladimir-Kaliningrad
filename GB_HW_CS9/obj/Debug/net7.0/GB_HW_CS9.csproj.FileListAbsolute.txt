@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\bin\Debug\net7.0\GB_HW_CS9.exe
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\bin\Debug\net7.0\GB_HW_CS9.deps.json
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\bin\Debug\net7.0\GB_HW_CS9.runtimeconfig.json
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\bin\Debug\net7.0\GB_HW_CS9.dll
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\bin\Debug\net7.0\GB_HW_CS9.pdb
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\GB_HW_CS9.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\GB_HW_CS9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\GB_HW_CS9.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\GB_HW_CS9.AssemblyInfo.cs
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\GB_HW_CS9.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\GB_HW_CS9.dll
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\refint\GB_HW_CS9.dll
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\GB_HW_CS9.pdb
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\GB_HW_CS9.genruntimeconfig.cache
+C:\Users\User\Desktop\LessonsCS\GB_HW_CS9\obj\Debug\net7.0\ref\GB_HW_CS9.dll
