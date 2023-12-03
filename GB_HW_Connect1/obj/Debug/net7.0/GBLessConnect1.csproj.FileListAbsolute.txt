@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\bin\Debug\net7.0\GBLessConnect1.exe
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\bin\Debug\net7.0\GBLessConnect1.deps.json
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\bin\Debug\net7.0\GBLessConnect1.runtimeconfig.json
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\bin\Debug\net7.0\GBLessConnect1.dll
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\bin\Debug\net7.0\GBLessConnect1.pdb
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\GBLessConnect1.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\GBLessConnect1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\GBLessConnect1.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\GBLessConnect1.AssemblyInfo.cs
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\GBLessConnect1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\GBLessConnect1.dll
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\refint\GBLessConnect1.dll
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\GBLessConnect1.pdb
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\GBLessConnect1.genruntimeconfig.cache
+C:\Users\User\Desktop\LessonsCS\GBLessConnect1\obj\Debug\net7.0\ref\GBLessConnect1.dll
