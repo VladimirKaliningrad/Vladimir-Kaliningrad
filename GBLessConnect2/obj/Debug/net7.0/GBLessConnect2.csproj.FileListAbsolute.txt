@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\LessonsCS\GBLessConnect2\obj\Debug\net7.0\GBLessConnect2.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\LessonsCS\GBLessConnect2\obj\Debug\net7.0\GBLessConnect2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LessonsCS\GBLessConnect2\obj\Debug\net7.0\GBLessConnect2.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LessonsCS\GBLessConnect2\obj\Debug\net7.0\GBLessConnect2.AssemblyInfo.cs
+C:\Users\User\Desktop\LessonsCS\GBLessConnect2\obj\Debug\net7.0\GBLessConnect2.csproj.CoreCompileInputs.cache
