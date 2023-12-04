@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "GBLessConnect1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/GBLessConnect1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GBLessConnect1.dll": {}
+        }
+      },
+      "GB_HW_Connect1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/GB_HW_Connect1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GB_HW_Connect1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GBLessConnect1/1.0.0": {
+      "type": "project",
+      "path": "../GBLessConnect1/GBLessConnect1.csproj",
+      "msbuildProject": "../GBLessConnect1/GBLessConnect1.csproj"
+    },
+    "GB_HW_Connect1/1.0.0": {
+      "type": "project",
+      "path": "../GB_HW_Connect1/GB_HW_Connect1.csproj",
+      "msbuildProject": "../GB_HW_Connect1/GB_HW_Connect1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "GBLessConnect1 >= 1.0.0",
+      "GB_HW_Connect1 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\LessonsCS\\Client\\Client.csproj",
+      "projectName": "Client",
+      "projectPath": "C:\\Users\\User\\Desktop\\LessonsCS\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\LessonsCS\\Client\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\LessonsCS\\GBLessConnect1\\GBLessConnect1.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\LessonsCS\\GBLessConnect1\\GBLessConnect1.csproj"
+            },
+            "C:\\Users\\User\\Desktop\\LessonsCS\\GB_HW_Connect1\\GB_HW_Connect1.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\LessonsCS\\GB_HW_Connect1\\GB_HW_Connect1.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
