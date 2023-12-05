@@ -28,22 +28,26 @@ namespace GB_HW_Connect1
 
         public static void Server(string name)
         {
+            
             UdpClient udpClient = new UdpClient(12345);
             IPEndPoint iPEndPoint = new IPEndPoint(IPAddress.Any, 0);
-            Console.WriteLine("Сервер ждет сообщение от клиента");
             
+            Console.WriteLine("Сервер ждет сообщение от клиента");
+
+
             while (true)
             {
                 byte[] buffer = udpClient.Receive (ref iPEndPoint);
-
-                if (buffer == null) break;
                 var messageText = Encoding.UTF8.GetString(buffer);
 
+                ThreadPool.QueueUserWorkItem(obj => {  
                 Message message = Message.DeserializeFromJson(messageText);
                 message.Print();
+
+                byte[] reply = Encoding.UTF8.GetBytes("Сообщение получено");
+                udpClient.Send(reply, reply.Length,iPEndPoint);
+                });
             }
-
-
 
 
             //using (Socket listner = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Udp))
