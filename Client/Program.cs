@@ -11,11 +11,11 @@ namespace Client
         static void Main(string[] args)
         {
             for (int i =0; i<10; i++)
-            { 
-                SentMessage("Vladimir",i);
+            {
+                int num = i;
+                Task.Run(()=>SentMessage("Vladimir",num));
             }
-            Console.ReadLine();
-
+            Console.ReadKey();
         }
         public static void SentMessage(string From, int i, string ip="127.0.0.1")
         {
