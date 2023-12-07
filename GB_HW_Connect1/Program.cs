@@ -46,6 +46,7 @@ namespace GB_HW_Connect1
 
                 byte[] reply = Encoding.UTF8.GetBytes("Сообщение получено");
                 udpClient.Send(reply, reply.Length,iPEndPoint);
+                Console.WriteLine($"Отправлено {reply.Length}");   
                 });
             }
 
