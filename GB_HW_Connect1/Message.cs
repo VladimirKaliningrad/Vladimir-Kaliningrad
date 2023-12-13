@@ -7,8 +7,15 @@ using System.Threading.Tasks;
 
 namespace GB_HW_Connect1
 {
+    public enum Commands
+    {
+        Register,
+        Delete
+    }
     public class Message
     {
+        public Commands command { get; set; }
+
         public string Text { get; set; }
         
         public DateTime DateTime { get; set; }

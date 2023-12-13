@@ -8,7 +8,8 @@ namespace GB_HW_Connect1
     {
         static void Main(string[] args)
         {
-            Server("Hello");
+            Server server = new Server();
+            server.Start();
         }
 
         public void task1 ()
