@@ -12,21 +12,29 @@ namespace LaundryService
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
             List<Order> orders = new List<Order>();
-            Order order1 = new Order("John Doe", "123-456-7890", "Bedding", 2);
-            order1.Color = "White";
-            order1.SoilingLevel = "Normal";
-            order1.Wash = "Yes";
-            orders.Add(order1);
+            string filePath = @"C:\Users\User\Desktop\LessonsCS\testLaundry\clients.csv";
+            List<Client> clients = ReadClientsFromCSV(filePath);
 
-            Console.WriteLine("Order 1:");
-            PrintOrderInfo(order1);
+            foreach (var client in clients)
+            {
+                Order order = new Order(client.Name, client.PhoneNumber, client.LaundryType, client.Quantity);
+                order.Color = client.Color;
+                order.SoilingLevel = client.SoilingLevel;
+                order.Wash = client.Wash;
+                orders.Add(order);
+            }
+
+            Console.WriteLine("Orders created for clients:");
+            foreach (var order in orders)
+            {
+                PrintOrderInfo(order);
+            }
 
             // Сохранение в Excel
-            string filePath = "Orders.xlsx";
-            SaveOrdersToExcel(orders, filePath);
-            
-            Console.WriteLine($"Orders saved to {filePath}");
+            string excelFilePath = "Orders.xlsx";
+            SaveOrdersToExcel(orders, excelFilePath);
 
+            Console.WriteLine($"Orders saved to {excelFilePath}");
             Console.ReadLine();
         }
 
@@ -39,6 +47,7 @@ namespace LaundryService
             Console.WriteLine($"Color: {order.Color}");
             Console.WriteLine($"Soiling Level: {order.SoilingLevel}");
             Console.WriteLine($"Wash: {order.Wash}");
+            Console.WriteLine();
         }
 
         private static void SaveOrdersToExcel(List<Order> orders, string filePath)
@@ -47,7 +56,17 @@ namespace LaundryService
 
             using (ExcelPackage package = new ExcelPackage(file))
             {
-                ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Orders");
+                ExcelWorksheet worksheet = null;
+
+                // Проверяем, существует ли уже лист "Orders"
+                if (package.Workbook.Worksheets["Orders"] != null)
+                {
+                    // Если лист существует, удаляем его
+                    package.Workbook.Worksheets.Delete("Orders");
+                }
+
+                // Создаем новый лист "Orders"
+                worksheet = package.Workbook.Worksheets.Add("Orders");
 
                 // Заголовки столбцов
                 worksheet.Cells[1, 1].Value = "Name";
@@ -74,6 +93,38 @@ namespace LaundryService
                 package.Save();
             }
         }
+
+        private static List<Client> ReadClientsFromCSV(string filePath)
+        {
+            List<Client> clients = new List<Client>();
+
+            using (var reader = new StreamReader(filePath))
+            {
+                // Пропускаем заголовок
+                reader.ReadLine();
+
+                while (!reader.EndOfStream)
+                {
+                    var line = reader.ReadLine();
+                    var values = line.Split(',');
+
+                    Client client = new Client
+                    {
+                        Name = values[0],
+                        PhoneNumber = values[1],
+                        LaundryType = values[2],
+                        Quantity = int.Parse(values[3]),
+                        Color = values[4],
+                        SoilingLevel = values[5],
+                        Wash = values[6]
+                    };
+
+                    clients.Add(client);
+                }
+            }
+
+            return clients;
+        }
     }
 
     class Order
@@ -86,6 +137,17 @@ namespace LaundryService
             Quantity = quantity;
         }
 
+        public string Name { get; set; }
+        public string PhoneNumber { get; set; }
+        public string LaundryType { get; set; }
+        public int Quantity { get; set; }
+        public string Color { get; set; }
+        public string SoilingLevel { get; set; }
+        public string Wash { get; set; }
+    }
+
+    class Client
+    {
         public string Name { get; set; }
         public string PhoneNumber { get; set; }
         public string LaundryType { get; set; }

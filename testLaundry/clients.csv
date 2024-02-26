@@ -1,0 +1,21 @@
+﻿Name,PhoneNumber,LaundryType,Quantity,Color,SoilingLevel,Wash
+Client 1,1234567890,Shirts,5,White,Light,Delicate
+Client 2,2345678901,Pants,3,Black,Heavy,Normal
+Client 3,3456789012,Socks,10,Gray,Medium,Quick
+Client 4,4567890123,Towels,2,Blue,Light,Delicate
+Client 5,5678901234,Bed Sheets,4,White,Heavy,Normal
+Client 6,6789012345,Jackets,1,Green,Medium,Quick
+Client 7,7890123456,Dresses,6,Red,Heavy,Normal
+Client 8,8901234567,Pillowcases,3,White,Light,Delicate
+Client 9,9012345678,Underwear,8,Black,Medium,Quick
+Client 10,0123456789,Blouses,2,Blue,Light,Delicate
+Client 11,9876543210,Jeans,4,Black,Heavy,Normal
+Client 12,8765432109,T-shirts,7,Gray,Medium,Quick
+Client 13,7654321098,Sweaters,3,White,Light,Delicate
+Client 14,6543210987,Shorts,5,Green,Heavy,Normal
+Client 15,5432109876,Skirts,2,Red,Medium,Quick
+Client 16,4321098765,Tablecloths,1,White,Light,Delicate
+Client 17,3210987654,Suits,4,Black,Heavy,Normal
+Client 18,2109876543,Sweatpants,3,Gray,Medium,Quick
+Client 19,1098765432,Scarves,2,Blue,Light,Delicate
+Client 20,9876543211,Hoodies,5,Black,Heavy,Normal
