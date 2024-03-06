@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace CSharp_course_Lesson_and_DZ_8
 {
@@ -10,32 +11,46 @@ namespace CSharp_course_Lesson_and_DZ_8
     {
         public static void SearchForFile(string directory, string fileName)
         {
-            var files = Directory.EnumerateFiles(directory, fileName, searchOption: SearchOption.AllDirectories);
-            foreach (var file in files)
+            try
             {
-                Console.WriteLine($"Искомый файл {fileName} находится по пути: {file}");
+                var files = Directory.EnumerateFiles(directory, fileName, SearchOption.AllDirectories);
+                foreach (var file in files)
+                {
+                    Console.WriteLine($"Искомый файл {fileName} находится по пути: {file}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка при поиске файла: {ex.Message}");
             }
         }
 
         public static void SearchForValueInFile(string fileName, string searchValue)
         {
-            if (File.Exists(fileName))
+            try
             {
-                using (StreamReader sr = new StreamReader(fileName))
+                if (File.Exists(fileName))
                 {
-                    string line;
-                    while ((line = sr.ReadLine()) != null)
+                    using (StreamReader sr = new StreamReader(fileName))
                     {
-                        if (line.Contains(searchValue))
+                        string line;
+                        while ((line = sr.ReadLine()) != null)
                         {
-                            Console.WriteLine($"Найдено значение {searchValue} в файле {fileName}: {line}");
+                            if (line.Contains(searchValue))
+                            {
+                                Console.WriteLine($"Найдено значение {searchValue} в файле {fileName}: {line}");
+                            }
                         }
                     }
                 }
+                else
+                {
+                    Console.WriteLine("Файл не существует");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Файл не существует");
+                Console.WriteLine($"Ошибка при чтении файла: {ex.Message}");
             }
         }
     }
