@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\LessonsCS\CRM-console\bin\Debug\net8.0\CRM-console.exe
+C:\Users\User\Desktop\LessonsCS\CRM-console\bin\Debug\net8.0\CRM-console.deps.json
+C:\Users\User\Desktop\LessonsCS\CRM-console\bin\Debug\net8.0\CRM-console.runtimeconfig.json
+C:\Users\User\Desktop\LessonsCS\CRM-console\bin\Debug\net8.0\CRM-console.dll
+C:\Users\User\Desktop\LessonsCS\CRM-console\bin\Debug\net8.0\CRM-console.pdb
+C:\Users\User\Desktop\LessonsCS\CRM-console\obj\Debug\net8.0\CRM-console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LessonsCS\CRM-console\obj\Debug\net8.0\CRM-console.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LessonsCS\CRM-console\obj\Debug\net8.0\CRM-console.AssemblyInfo.cs
+C:\Users\User\Desktop\LessonsCS\CRM-console\obj\Debug\net8.0\CRM-console.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LessonsCS\CRM-console\obj\Debug\net8.0\CRM-console.dll
+C:\Users\User\Desktop\LessonsCS\CRM-console\obj\Debug\net8.0\refint\CRM-console.dll
+C:\Users\User\Desktop\LessonsCS\CRM-console\obj\Debug\net8.0\CRM-console.pdb
+C:\Users\User\Desktop\LessonsCS\CRM-console\obj\Debug\net8.0\CRM-console.genruntimeconfig.cache
+C:\Users\User\Desktop\LessonsCS\CRM-console\obj\Debug\net8.0\ref\CRM-console.dll
